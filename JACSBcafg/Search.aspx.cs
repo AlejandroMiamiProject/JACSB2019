@@ -17,7 +17,7 @@ namespace JACSBcafg
 
         } 
         
-        protected void BtnSearch_Click(object sender, EventArgs e)
+        public void BtnSearch_Click(object sender, EventArgs e)
         {
             //32:54...
             api a = new api();
