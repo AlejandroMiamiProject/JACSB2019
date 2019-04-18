@@ -14,17 +14,19 @@ namespace JACSBcafg.Tests
         [TestMethod()]
         public void createLearningSiteTest()
         {
-            Assert.IsNull("@lsName");
-            Assert.IsNull("@lsOwnerName");
-            Assert.IsNull("@lsEmail");
-            Assert.IsNull("@lsPhoneNumber");
-            Assert.IsNull("@lsWebAddress");
+            // If any of the fields empty, raises error
+            Assert.IsNotNull("@lsName");
+            Assert.IsNotNull("@lsOwnerName");
+            Assert.IsNotNull("@lsEmail");
+            Assert.IsNotNull("@lsPhoneNumber");
+            Assert.IsNotNull("@lsWebAddress");
         }
 
         [TestMethod()]
         public void getVendorsByStateTest()
         {
-            Assert.IsNull("@state");
+            // If field is empty, raises error
+            Assert.IsNotNull("@state");
         }
     }
 }

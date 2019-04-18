@@ -14,8 +14,14 @@ namespace JACSBcafg.Tests
         [TestMethod()]
         public void BtnSearch_ClickTest()
         {
+            string searchCriteria = "@searchCriteria".ToLower();
+
+            // If search is empty, raises error
+            Assert.IsNotNull(searchCriteria);
+
+            // If search is not in expected searches, raises error
             string[] expectedSearchStrings = {"c++", "java", "python"};
-            CollectionAssert.Contains(expectedSearchStrings, "@searchCriteria".ToLower());
+            CollectionAssert.Contains(expectedSearchStrings, searchCriteria);
             // CollectionAssert.Contains(expectedSearchStrings, "@searchCriteria".ToLower()); Passes
         }
     }
