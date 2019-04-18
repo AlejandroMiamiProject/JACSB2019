@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Create Learning Site" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CreateLearningSite.aspx.cs" Inherits="JACSBcafg.CreateLearningSite" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>!</h2>
-    <h3>Let's get some info</h3>
+    <h2><%: Title %></h2>
+    <h3>Lets get some info</h3>
 
     <%-- [lsId]          INT            IDENTITY (1, 1) NOT NULL, --%>
     <%-- [lsName]        NVARCHAR (100) NOT NULL, --%>
@@ -14,12 +14,6 @@
     <%-- [lsIsApproved]  BIT            DEFAULT ((0)) NOT NULL, --%>
 
     <br>
-
-    <%--If Empty Fields Prints the Ones Needed Attened To --%>
-    <p class="text-danger">
-        <asp:Literal runat="server" ID="ErrorMessage" />
-    </p>
-    <asp:ValidationSummary runat="server" CssClass="text-danger" />
 
     <%--Name Field --%>
     <asp:TextBox ID="lsName" CssClass="form-control" runat="server" placeholder="Company Name"></asp:TextBox>
