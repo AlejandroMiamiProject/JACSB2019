@@ -1,0 +1,14 @@
+Sort array: Array.Sort(array);
+    Ex:
+        string[] names = { "a", "x", "c", "e" };
+        Array.Sort(names);	
+
+Sort list: list.Sort();
+    Ex:
+        List<T> tmp = new List<T>(list);
+        tmp.Sort();
+        
+Sort arraylist: myAL.Sort();
+    Ex:
+        ArrayList myAL = new ArrayList();
+        myAL.Sort();
