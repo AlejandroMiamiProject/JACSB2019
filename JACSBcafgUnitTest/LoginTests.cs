@@ -21,6 +21,12 @@ namespace JACSBcafg.Account.Tests
         public void LogInTest()
         {
             Assert.IsNotNull("@sender");
+            Assert.IsNotNull("@Email.Text");
+            Assert.IsNotNull("@Password.Text");
+            Assert.IsNotNull("@RememberMe.Checked");
+            Assert.IsNotNull("@result");
+            // Email.Text, Password.Text, RememberMe.Checked
+
         }
     }
 }
