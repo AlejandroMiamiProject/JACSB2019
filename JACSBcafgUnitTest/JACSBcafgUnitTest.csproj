@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutTests.cs" />
+    <Compile Include="AddPhoneNumberTests.cs" />
     <Compile Include="apiTests.cs" />
     <Compile Include="SearchTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

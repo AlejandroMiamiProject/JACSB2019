@@ -16,7 +16,7 @@
     <br>
 
     <%--Name Field --%>
-    <asp:TextBox ID="lsName" CssClass="form-control" runat="server" placeholder="Company Name"></asp:TextBox>
+    <asp:TextBox ID="lsName" CssClass="form-control" jsaction="paste:puy29d" runat="server" placeholder="Company Name"></asp:TextBox>
     <asp:RequiredFieldValidator runat="server" ControlToValidate="lsName"
                     CssClass="text-danger" ErrorMessage="The name field is required." />
     <br>

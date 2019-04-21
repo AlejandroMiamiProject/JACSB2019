@@ -13,7 +13,7 @@ namespace JACSBcafg.Account
 {
     public partial class AddPhoneNumber : System.Web.UI.Page
     {
-        protected void PhoneNumber_Click(object sender, EventArgs e)
+        public void PhoneNumber_Click(object sender, EventArgs e)
         {
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
             var code = manager.GenerateChangePhoneNumberToken(User.Identity.GetUserId(), PhoneNumber.Text);
