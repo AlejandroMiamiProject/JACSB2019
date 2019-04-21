@@ -10,7 +10,7 @@ namespace JACSBcafg.Account
 {
     public partial class Login : Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
             // Enable this once you have account confirmation enabled for password reset functionality
@@ -23,7 +23,7 @@ namespace JACSBcafg.Account
             }
         }
 
-        protected void LogIn(object sender, EventArgs e)
+        public void LogIn(object sender, EventArgs e)
         {
             if (IsValid)
             {
