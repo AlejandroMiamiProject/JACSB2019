@@ -53,6 +53,7 @@
     <Compile Include="AddPhoneNumberTests.cs" />
     <Compile Include="apiTests.cs" />
     <Compile Include="LoginTests.cs" />
+    <Compile Include="ReviewTest.cs" />
     <Compile Include="SearchTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
