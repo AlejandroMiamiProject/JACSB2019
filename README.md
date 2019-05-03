@@ -1,8 +1,8 @@
 # JACSB2019
 **OurMeta App**
 
-*Hello World* This is our MetaApp!
-
+*Hello World!* 
+This is our MetaApp!
 ___________________________________________________________________________________________________________________________________________
 
 There are a couple of things you can do here. 
