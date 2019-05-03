@@ -1,7 +1,9 @@
 # JACSB2019
-** Meta App **
+**OurMeta App**
 
-* Hello World * This is our MetaApp. 
+*Hello World* This is our MetaApp!
+
+___________________________________________________________________________________________________________________________________________
 
 There are a couple of things you can do here. 
 - You can Search for a Learning Site by name or a subject at the Search page. Simply type something in and the website will return the results.
