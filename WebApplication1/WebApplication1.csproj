@@ -123,7 +123,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="CreateLearningSite.aspx" />
+    <Content Include="AddLearningSite.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -193,12 +193,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CreateLearningSite.aspx.cs">
-      <DependentUpon>CreateLearningSite.aspx</DependentUpon>
+    <Compile Include="AddLearningSite.aspx.cs">
+      <DependentUpon>AddLearningSite.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CreateLearningSite.aspx.designer.cs">
-      <DependentUpon>CreateLearningSite.aspx</DependentUpon>
+    <Compile Include="AddLearningSite.aspx.designer.cs">
+      <DependentUpon>AddLearningSite.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

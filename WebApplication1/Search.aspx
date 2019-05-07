@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="JACSBcafg.Search" ClientIDMode="Inherit" %>
 
 <asp:Content ID="btnSearch_Click" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %></h2>
-    <h3></h3>
+    <fieldset>
+        <legend><h2><%: Title %></h2></legend>
+    </fieldset>
 
     <%--Here Begins Search for Result --%>
     <asp:TextBox ID="txtSearch" CssClass="form-control" runat="server" placeholder="What are you looking for?"></asp:TextBox>
@@ -118,6 +119,7 @@
         <%--Search Button --%>
         <button  id="btn_Search_Click_Filter" class="btn medium" CssClass="btn btn-primary" runat="server" Text="Go" OnClick="BtnSearch_Click" type="submit">Filter</button>
         <asp:Label ID="lblFilterSearch" runat="server" Text=""></asp:Label>
+        &nbsp;<br />
     </div>
 
 </asp:Content>

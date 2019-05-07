@@ -5,19 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace JACSBcafg
+namespace JACSBcafg.Account
 {
-    public partial class CreateLearningSite : System.Web.UI.Page
+    public partial class Lockout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-        protected void btnCreate_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
-
 }
